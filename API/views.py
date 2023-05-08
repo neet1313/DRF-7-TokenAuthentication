@@ -13,4 +13,4 @@ class StudentViewset(viewsets.ModelViewSet):
     serializer_class = serializers.StudentSerializer
 
 # To install httpie command line tool-> pip install httpie
-# Generating Token for a user-> http POST http://127.0.0.1:8000/gettoken/ username='' pasword='' 
+# Generating/Viewing Token for a user-> http POST http://127.0.0.1:8000/gettoken/ username='' pasword='' 
