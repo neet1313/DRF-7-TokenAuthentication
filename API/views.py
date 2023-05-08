@@ -1,8 +1,11 @@
 from rest_framework import viewsets
 from API import serializers, models
 
-
-# To generate token on our own -> python manage.py drf_create_token <user_name>
+# There are 4 ways to generate Token:
+# 1. Admin Application
+# 2. python manage.py drf_create_token <username> command
+# 3. By exposing an API endpoint
+# 4. Using signals
 
 
 # ------- Model Serializer ------
